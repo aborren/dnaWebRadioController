@@ -1,0 +1,6 @@
+framework module dnaWebRadioController {
+  umbrella header "dnaWebRadioController-umbrella.h"
+
+  export *
+  module * { export * }
+}

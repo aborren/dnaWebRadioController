@@ -2,10 +2,4 @@ use_frameworks!
 
 target 'dnaWebRadioController_Example' do
   pod 'dnaWebRadioController', :path => '../'
-
-  target 'dnaWebRadioController_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

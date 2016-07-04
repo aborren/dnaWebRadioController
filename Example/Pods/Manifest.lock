@@ -1,0 +1,14 @@
+PODS:
+  - dnaWebRadioController (0.1.0)
+
+DEPENDENCIES:
+  - dnaWebRadioController (from `../`)
+
+EXTERNAL SOURCES:
+  dnaWebRadioController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  dnaWebRadioController: 9b2984a03df53a89f4c4e405191cdba42d186665
+
+COCOAPODS: 0.39.0
