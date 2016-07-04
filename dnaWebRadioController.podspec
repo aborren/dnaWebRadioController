@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'dnaWebRadioController'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of dnaWebRadioController.'
+  s.summary          = 'A small library to stream audio links.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,11 +17,9 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'Set the WebRadioController sharedInstance to a stream url and execute play! NSAppTransportSecurity needs to be set to accept the stream url. Also need to enable background process for audio.'
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/dnaWebRadioController'
+  s.homepage         = 'https://github.com/aborren/dnaWebRadioController'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Dan Isacson' => 'dan@themobilelife.com' }
