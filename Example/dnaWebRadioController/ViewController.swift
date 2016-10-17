@@ -39,12 +39,12 @@ class ViewController: UIViewController {
 
 extension ViewController: WebRadioDelegate {
     
-    func didStartPlaying(webRadioController: WebRadioController) {
-        self.playButton.setTitle("PAUSE", forState: .Normal)
+    func didStartPlaying(_ webRadioController: WebRadioController) {
+        self.playButton.setTitle("PAUSE", for: .normal)
     }
     
-    func didStopPlaying(webRadioController: WebRadioController) {
-        self.playButton.setTitle("PLAY", forState: .Normal)
+    func didStopPlaying(_ webRadioController: WebRadioController) {
+        self.playButton.setTitle("PLAY", for: .normal)
     }
     
 }

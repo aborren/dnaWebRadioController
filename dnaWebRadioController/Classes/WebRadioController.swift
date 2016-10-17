@@ -11,25 +11,25 @@ import UIKit
 import AVFoundation
 import MediaPlayer
 
-public class WebRadioController: NSObject {
+open class WebRadioController: NSObject {
     
-    public static let sharedInstance = WebRadioController()
+    open static let sharedInstance = WebRadioController()
     
-    public var isPlaying: Bool { get { return player != nil } }
-    public var delegate: WebRadioDelegate?
+    open var isPlaying: Bool { get { return player != nil } }
+    open var delegate: WebRadioDelegate?
     
-    private var player: AVPlayer?
-    private var streamUrl: NSURL?
-    private var nowPlaying: String?
+    fileprivate var player: AVPlayer?
+    fileprivate var streamUrl: URL?
+    fileprivate var nowPlaying: String?
     
     override init() {
         super.init()
-        UIApplication.sharedApplication().beginReceivingRemoteControlEvents()
+        UIApplication.shared.beginReceivingRemoteControlEvents()
         
-        let commandCenter = MPRemoteCommandCenter.sharedCommandCenter()
-        commandCenter.playCommand.enabled = true
+        let commandCenter = MPRemoteCommandCenter.shared()
+        commandCenter.playCommand.isEnabled = true
         commandCenter.playCommand.addTarget(self, action: #selector(WebRadioController.play))
-        commandCenter.pauseCommand.enabled = true
+        commandCenter.pauseCommand.isEnabled = true
         commandCenter.pauseCommand.addTarget(self, action: #selector(WebRadioController.pause))
         
         let session: AVAudioSession = AVAudioSession.sharedInstance()
@@ -41,39 +41,39 @@ public class WebRadioController: NSObject {
     
     }
     
-    public func setStreamUrl(string string: String) {
-        streamUrl = NSURL(string: string)
+    open func setStreamUrl(string: String) {
+        streamUrl = URL(string: string)
     
     }
     
-    public func setStreamUrl(url url: NSURL) {
+    open func setStreamUrl(url: URL) {
         streamUrl = url
     }
 
-    public func setNowPlaying(string: String) {
+    open func setNowPlaying(_ string: String) {
         nowPlaying = string
         updateNowPlaying()
     }
     
-    public dynamic func pause() {
+    open dynamic func pause() {
         player = nil
         delegate?.didStopPlaying?(self)
     }
     
-    public dynamic func play() {
+    open dynamic func play() {
         guard let url = streamUrl else {
             return
         }
         
         updateNowPlaying()
-        player = AVPlayer(URL: url)
+        player = AVPlayer(url: url)
         player?.play()
         delegate?.didStartPlaying?(self)
     }
     
-    private func updateNowPlaying() {
+    fileprivate func updateNowPlaying() {
         if let title = nowPlaying {
-            MPNowPlayingInfoCenter.defaultCenter().nowPlayingInfo = [MPMediaItemPropertyTitle: title]
+            MPNowPlayingInfoCenter.default().nowPlayingInfo = [MPMediaItemPropertyTitle: title]
         }
     }
     

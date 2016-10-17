@@ -9,6 +9,6 @@
 import Foundation
 
 @objc public protocol WebRadioDelegate {
-    optional func didStartPlaying(webRadioController: WebRadioController) -> Void
-    optional func didStopPlaying(webRadioController: WebRadioController) -> Void
+    @objc optional func didStartPlaying(_ webRadioController: WebRadioController) -> Void
+    @objc optional func didStopPlaying(_ webRadioController: WebRadioController) -> Void
 }
