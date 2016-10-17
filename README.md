@@ -10,6 +10,11 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+Set the WebRadioController sharedInstance to a stream url and execute play!
+
+NSAppTransportSecurity needs to be set to accept the stream url. 
+
+Also need to enable background process for audio.
 
 ## Installation
 
