@@ -1,14 +1,16 @@
 PODS:
-  - dnaWebRadioController (0.1.0)
+  - dnaWebRadioController (1.0.0)
 
 DEPENDENCIES:
   - dnaWebRadioController (from `../`)
 
 EXTERNAL SOURCES:
   dnaWebRadioController:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  dnaWebRadioController: 9b2984a03df53a89f4c4e405191cdba42d186665
+  dnaWebRadioController: c628259aa7d89e762b9d6e133924a8ad34d0d812
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: c6c193300fff9825c17bd9332dcac28e85b86f6e
+
+COCOAPODS: 1.5.3

@@ -13,7 +13,7 @@ import MediaPlayer
 
 open class WebRadioController: NSObject {
     
-    open static let sharedInstance = WebRadioController()
+    public static let sharedInstance = WebRadioController()
     
     open var isPlaying: Bool { get { return player != nil } }
     open var delegate: WebRadioDelegate?
@@ -34,9 +34,14 @@ open class WebRadioController: NSObject {
         
         let session: AVAudioSession = AVAudioSession.sharedInstance()
         do {
-            try session.setCategory(AVAudioSessionCategoryPlayback)
+            if #available(iOS 10.0, *) {
+                try session.setCategory(AVAudioSession.Category.playback, mode: .default, options: [])
+            } else {
+                // Workaround until https://forums.swift.org/t/using-methods-marked-unavailable-in-swift-4-2/14949 isn't fixed
+                session.perform(NSSelectorFromString("setCategory:error:"), with: AVAudioSession.Category.playback)
+            }
         } catch {
-            //catching the error.
+            //catching the error. :)
         }
     
     }
@@ -55,12 +60,12 @@ open class WebRadioController: NSObject {
         updateNowPlaying()
     }
     
-    open dynamic func pause() {
+    @objc open dynamic func pause() {
         player = nil
         delegate?.didStopPlaying?(self)
     }
     
-    open dynamic func play() {
+    @objc open dynamic func play() {
         guard let url = streamUrl else {
             return
         }
