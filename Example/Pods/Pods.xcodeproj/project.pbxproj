@@ -314,6 +314,37 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		38D7248BBE744F6F51BDBDFD6711F342 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1D207E6E34157C1FD4E5873B860DD26 /* dnaWebRadioController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/dnaWebRadioController/dnaWebRadioController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/dnaWebRadioController/dnaWebRadioController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/dnaWebRadioController/dnaWebRadioController.modulemap";
+				PRODUCT_MODULE_NAME = dnaWebRadioController;
+				PRODUCT_NAME = dnaWebRadioController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		60A7F9B4A8E92A5B16CC2AA887D9FE07 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -373,37 +404,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		7B9B3A2285FDA132235AC296B71C9247 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1D207E6E34157C1FD4E5873B860DD26 /* dnaWebRadioController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/dnaWebRadioController/dnaWebRadioController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/dnaWebRadioController/dnaWebRadioController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/dnaWebRadioController/dnaWebRadioController.modulemap";
-				PRODUCT_MODULE_NAME = dnaWebRadioController;
-				PRODUCT_NAME = dnaWebRadioController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		7E1F3D358966F24610AD782F313B4C40 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -503,7 +503,7 @@
 			};
 			name = Release;
 		};
-		E93997362F5F76FCEA7615991D5FBD42 /* Release */ = {
+		B191AEF7674A9C50D08E93BE10DF8DF3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B1D207E6E34157C1FD4E5873B860DD26 /* dnaWebRadioController.xcconfig */;
 			buildSettings = {
@@ -527,7 +527,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -583,8 +583,8 @@
 		6AFFBA52649FF6FB6073EDD122BEAF27 /* Build configuration list for PBXNativeTarget "dnaWebRadioController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7B9B3A2285FDA132235AC296B71C9247 /* Debug */,
-				E93997362F5F76FCEA7615991D5FBD42 /* Release */,
+				38D7248BBE744F6F51BDBDFD6711F342 /* Debug */,
+				B191AEF7674A9C50D08E93BE10DF8DF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

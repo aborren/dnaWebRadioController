@@ -54,7 +54,6 @@ open class WebRadioController: NSObject {
     
     open func setStreamUrl(string: String) {
         streamUrl = URL(string: string)
-    
     }
     
     open func setStreamUrl(url: URL) {
