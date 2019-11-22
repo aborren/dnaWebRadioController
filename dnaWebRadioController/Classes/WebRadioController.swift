@@ -28,9 +28,15 @@ open class WebRadioController: NSObject {
         
         let commandCenter = MPRemoteCommandCenter.shared()
         commandCenter.playCommand.isEnabled = true
-        commandCenter.playCommand.addTarget(self, action: #selector(WebRadioController.play))
+        commandCenter.playCommand.addTarget { [unowned self] event in
+            self.play()
+            return .success
+        }
         commandCenter.pauseCommand.isEnabled = true
-        commandCenter.pauseCommand.addTarget(self, action: #selector(WebRadioController.pause))
+        commandCenter.pauseCommand.addTarget { [unowned self] event in
+            self.pause()
+            return .success
+        }
         
         let session: AVAudioSession = AVAudioSession.sharedInstance()
         do {

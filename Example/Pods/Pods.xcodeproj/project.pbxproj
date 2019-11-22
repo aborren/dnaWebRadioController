@@ -7,229 +7,208 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E7A2ED0B29ADA8C8BFE9DA45CE24378 /* dnaWebRadioController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4421AFEF493E553747D7256FD13B7360 /* dnaWebRadioController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48D02E6EBA8ED44C36E8C3641A28781F /* dnaWebRadioController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A194A9DD08B87D04612885C4B67D9C0 /* dnaWebRadioController-dummy.m */; };
-		4B05F1562E7A0CC6E95597626510D2FB /* Pods-dnaWebRadioController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F488CA76A9D6B431CD14C431FB16FB /* Pods-dnaWebRadioController_Example-dummy.m */; };
-		693EAF60DC64C082BB640E5085BC4F96 /* Pods-dnaWebRadioController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DD8AF75ACE255443B06B36D54135E77 /* Pods-dnaWebRadioController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E4D42F1D55F5DBFB5FBC4F02B0E963A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		DE2865EE11C8CD5AD9A41CA6088BF01B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		EAE07E06AF9AF646A3E356ABB56A3C21 /* WebRadioDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769FF3F8C622425C98D7B1AEEB97650D /* WebRadioDelegate.swift */; };
-		F49D5593BE4F1F99387B45477247A1CE /* WebRadioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF5154037DDC2DD3FAA2F3A40CAC3E2 /* WebRadioController.swift */; };
+		31D100DF3AE7D35B96ED3F0E56B96F4D /* WebRadioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC0F9A959BDE4AEC1E6117AD95D94B7 /* WebRadioController.swift */; };
+		48367F603C2846F26806289B3262AFE2 /* dnaWebRadioController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 328C4D01A5166601E4C6B554FBA4766B /* dnaWebRadioController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		808E9F12F0FF5C3F8FB013EFE128B45E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A069A251E88BB5D168F259487C624F8B /* Pods-dnaWebRadioController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12406CECE563B2ACCC52133463C82AC5 /* Pods-dnaWebRadioController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8F35FA235F0C64324D1F13BAC1FC66B /* dnaWebRadioController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD630D340F47E18414BD165FFBEEEB4 /* dnaWebRadioController-dummy.m */; };
+		B52F649C3D09878D394516EB12F6ACF8 /* Pods-dnaWebRadioController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCD3B0995B598BB300FD48D312A9294 /* Pods-dnaWebRadioController_Example-dummy.m */; };
+		CDBA32C483635BC954DA6B5140C69595 /* WebRadioDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795BED3EAE3BA7A69F15FE18C6ED3962 /* WebRadioDelegate.swift */; };
+		E0E86B5A85A23169FAE4B81900FEA050 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C992DE10F3077A48CCBABF522791BC10 /* PBXContainerItemProxy */ = {
+		EA330AE77569EDE59C5AA97001DB5D59 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B87ACD9794D6F0666104BE3B4354C783;
+			remoteGlobalIDString = 5178073381836FB5325D2D2550385614;
 			remoteInfo = dnaWebRadioController;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03D0B8209A795FB5D7CC39FB27B017EE /* Pods-dnaWebRadioController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-dnaWebRadioController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		12322A2E41393EE29381B54808C44CB7 /* Pods-dnaWebRadioController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dnaWebRadioController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		15A045005D14FE9500E26AF09BF9C5BF /* Pods-dnaWebRadioController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-dnaWebRadioController_Example.modulemap"; sourceTree = "<group>"; };
-		1E8C7EF59C5199E8AEF3026B5FB92EAC /* Pods-dnaWebRadioController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dnaWebRadioController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		39F488CA76A9D6B431CD14C431FB16FB /* Pods-dnaWebRadioController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dnaWebRadioController_Example-dummy.m"; sourceTree = "<group>"; };
-		3DD8AF75ACE255443B06B36D54135E77 /* Pods-dnaWebRadioController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-dnaWebRadioController_Example-umbrella.h"; sourceTree = "<group>"; };
-		3E2CA41276EEDCBD881C6903A815B337 /* Pods-dnaWebRadioController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-dnaWebRadioController_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4421AFEF493E553747D7256FD13B7360 /* dnaWebRadioController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "dnaWebRadioController-umbrella.h"; sourceTree = "<group>"; };
-		4FF5154037DDC2DD3FAA2F3A40CAC3E2 /* WebRadioController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebRadioController.swift; path = dnaWebRadioController/Classes/WebRadioController.swift; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		685F69657FDCC204F775F58B5DB72C00 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6A194A9DD08B87D04612885C4B67D9C0 /* dnaWebRadioController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "dnaWebRadioController-dummy.m"; sourceTree = "<group>"; };
-		6FC81CF965446BFDB706233756F4A190 /* dnaWebRadioController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = dnaWebRadioController.xcconfig; sourceTree = "<group>"; };
-		727D5CE9409DAF7C519B0B23BD854B07 /* Pods-dnaWebRadioController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-dnaWebRadioController_Example-resources.sh"; sourceTree = "<group>"; };
-		769FF3F8C622425C98D7B1AEEB97650D /* WebRadioDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebRadioDelegate.swift; path = dnaWebRadioController/Classes/WebRadioDelegate.swift; sourceTree = "<group>"; };
-		8EB1101ED91B9E325B81D662EABC5846 /* dnaWebRadioController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = dnaWebRadioController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		974FDAD33B4C0EE286A9E4736B3A8F5E /* Pods-dnaWebRadioController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dnaWebRadioController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9FBF7FF5378CC98D8123B520646B84AD /* Pods_dnaWebRadioController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_dnaWebRadioController_Example.framework; path = "Pods-dnaWebRadioController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8133AB7BDE354F6E0A10C66837806AD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		D68A0672D00D6EC003331485C3DED6A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E869D54B18F3B4FC4E255494B0492251 /* dnaWebRadioController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = dnaWebRadioController.modulemap; sourceTree = "<group>"; };
-		ED5DB459CF44FAA71EF35B1995459A7D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F9F6982AA69567CFDC484BB270387363 /* dnaWebRadioController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "dnaWebRadioController-prefix.pch"; sourceTree = "<group>"; };
-		FF0E0F11FCF7FB47BC843C1735009069 /* dnaWebRadioController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = dnaWebRadioController.framework; path = dnaWebRadioController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C7492DAD3C02CBB02000161AE5C57C6 /* dnaWebRadioController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = dnaWebRadioController.modulemap; sourceTree = "<group>"; };
+		12406CECE563B2ACCC52133463C82AC5 /* Pods-dnaWebRadioController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-dnaWebRadioController_Example-umbrella.h"; sourceTree = "<group>"; };
+		218F9A68EAB5148B5BA9BFFCE785B6C8 /* Pods-dnaWebRadioController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-dnaWebRadioController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2400848CD6932E5ACF1C3A6BD0086846 /* Pods-dnaWebRadioController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-dnaWebRadioController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		328C4D01A5166601E4C6B554FBA4766B /* dnaWebRadioController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "dnaWebRadioController-umbrella.h"; sourceTree = "<group>"; };
+		55834F5A0BA3FFC5CC9ED8962F3D8CBD /* Pods-dnaWebRadioController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dnaWebRadioController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5AD312F8CADD2C0E0F5B9EDF06738E5C /* Pods-dnaWebRadioController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dnaWebRadioController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6CD630D340F47E18414BD165FFBEEEB4 /* dnaWebRadioController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "dnaWebRadioController-dummy.m"; sourceTree = "<group>"; };
+		7454CB61B0D85FE3EBFBF60AB0E757D7 /* dnaWebRadioController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "dnaWebRadioController-prefix.pch"; sourceTree = "<group>"; };
+		783742588D172DD50944DB2F69287BD7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		795BED3EAE3BA7A69F15FE18C6ED3962 /* WebRadioDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebRadioDelegate.swift; path = dnaWebRadioController/Classes/WebRadioDelegate.swift; sourceTree = "<group>"; };
+		84446D1FBB9DFA1457A7022910D5B9EB /* Pods-dnaWebRadioController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-dnaWebRadioController_Example.modulemap"; sourceTree = "<group>"; };
+		9435640E2E4EEE4B6AF5FCA90E6D0D03 /* Pods-dnaWebRadioController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dnaWebRadioController_Example-Info.plist"; sourceTree = "<group>"; };
+		97E8AB6C4998E40DBC081A4E858947BC /* dnaWebRadioController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = dnaWebRadioController.framework; path = dnaWebRadioController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA3AE2A06EF277D70E7C76A47F12DB5E /* Pods-dnaWebRadioController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dnaWebRadioController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B1D207E6E34157C1FD4E5873B860DD26 /* dnaWebRadioController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = dnaWebRadioController.xcconfig; sourceTree = "<group>"; };
+		B2BEB4677B0B80FCE64FC652A11DB845 /* dnaWebRadioController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "dnaWebRadioController-Info.plist"; sourceTree = "<group>"; };
+		CBCD3B0995B598BB300FD48D312A9294 /* Pods-dnaWebRadioController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dnaWebRadioController_Example-dummy.m"; sourceTree = "<group>"; };
+		CF37E9B96D28539BBD614ED5B759016C /* Pods_dnaWebRadioController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_dnaWebRadioController_Example.framework; path = "Pods-dnaWebRadioController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB31DAFDB3F922BD5B3B23F2D0455488 /* dnaWebRadioController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = dnaWebRadioController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DC0203326BB51AC608CF404499C8C8F4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EAC0F9A959BDE4AEC1E6117AD95D94B7 /* WebRadioController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebRadioController.swift; path = dnaWebRadioController/Classes/WebRadioController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		63E7EB2221039FF54F774749D92DE20A /* Frameworks */ = {
+		4C854D5779399C75877B7EE8F19473DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E4D42F1D55F5DBFB5FBC4F02B0E963A /* Foundation.framework in Frameworks */,
+				E0E86B5A85A23169FAE4B81900FEA050 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B62841A91B7DAFEAD02914CE7D835835 /* Frameworks */ = {
+		BAD8907AAD8C6269BE96BA1C0438599B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE2865EE11C8CD5AD9A41CA6088BF01B /* Foundation.framework in Frameworks */,
+				808E9F12F0FF5C3F8FB013EFE128B45E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		075A9F6C776E9841D5B90157CFE2FA51 /* Pods-dnaWebRadioController_Example */ = {
+		09E335B88C245D5DE7C644A02C2908A6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ED5DB459CF44FAA71EF35B1995459A7D /* Info.plist */,
-				15A045005D14FE9500E26AF09BF9C5BF /* Pods-dnaWebRadioController_Example.modulemap */,
-				03D0B8209A795FB5D7CC39FB27B017EE /* Pods-dnaWebRadioController_Example-acknowledgements.markdown */,
-				974FDAD33B4C0EE286A9E4736B3A8F5E /* Pods-dnaWebRadioController_Example-acknowledgements.plist */,
-				39F488CA76A9D6B431CD14C431FB16FB /* Pods-dnaWebRadioController_Example-dummy.m */,
-				3E2CA41276EEDCBD881C6903A815B337 /* Pods-dnaWebRadioController_Example-frameworks.sh */,
-				727D5CE9409DAF7C519B0B23BD854B07 /* Pods-dnaWebRadioController_Example-resources.sh */,
-				3DD8AF75ACE255443B06B36D54135E77 /* Pods-dnaWebRadioController_Example-umbrella.h */,
-				12322A2E41393EE29381B54808C44CB7 /* Pods-dnaWebRadioController_Example.debug.xcconfig */,
-				1E8C7EF59C5199E8AEF3026B5FB92EAC /* Pods-dnaWebRadioController_Example.release.xcconfig */,
+				97E8AB6C4998E40DBC081A4E858947BC /* dnaWebRadioController.framework */,
+				CF37E9B96D28539BBD614ED5B759016C /* Pods_dnaWebRadioController_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17270D203D20EBC55503CE845DE50F5C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				73CB3D11B732F51890FD5F54AAD14CEE /* Pods-dnaWebRadioController_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		32FA6834D3A8321F8761715D65A14D76 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DB31DAFDB3F922BD5B3B23F2D0455488 /* dnaWebRadioController.podspec */,
+				DC0203326BB51AC608CF404499C8C8F4 /* LICENSE */,
+				783742588D172DD50944DB2F69287BD7 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5E4EDC058AF6EDF04EDBBB35A5DAC7A0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D626E533B3B569E69DAE93E555E1ECE9 /* dnaWebRadioController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		73CB3D11B732F51890FD5F54AAD14CEE /* Pods-dnaWebRadioController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				84446D1FBB9DFA1457A7022910D5B9EB /* Pods-dnaWebRadioController_Example.modulemap */,
+				218F9A68EAB5148B5BA9BFFCE785B6C8 /* Pods-dnaWebRadioController_Example-acknowledgements.markdown */,
+				5AD312F8CADD2C0E0F5B9EDF06738E5C /* Pods-dnaWebRadioController_Example-acknowledgements.plist */,
+				CBCD3B0995B598BB300FD48D312A9294 /* Pods-dnaWebRadioController_Example-dummy.m */,
+				2400848CD6932E5ACF1C3A6BD0086846 /* Pods-dnaWebRadioController_Example-frameworks.sh */,
+				9435640E2E4EEE4B6AF5FCA90E6D0D03 /* Pods-dnaWebRadioController_Example-Info.plist */,
+				12406CECE563B2ACCC52133463C82AC5 /* Pods-dnaWebRadioController_Example-umbrella.h */,
+				55834F5A0BA3FFC5CC9ED8962F3D8CBD /* Pods-dnaWebRadioController_Example.debug.xcconfig */,
+				AA3AE2A06EF277D70E7C76A47F12DB5E /* Pods-dnaWebRadioController_Example.release.xcconfig */,
 			);
 			name = "Pods-dnaWebRadioController_Example";
 			path = "Target Support Files/Pods-dnaWebRadioController_Example";
 			sourceTree = "<group>";
 		};
-		0DEA1E8295BD54468DBBC187B6DDB164 /* Products */ = {
+		8C6F81B8BD747850B1C1FB8002B8B945 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FF0E0F11FCF7FB47BC843C1735009069 /* dnaWebRadioController.framework */,
-				9FBF7FF5378CC98D8123B520646B84AD /* Pods_dnaWebRadioController_Example.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3D31431D1ED4C8C69149381D20434A98 /* dnaWebRadioController */ = {
-			isa = PBXGroup;
-			children = (
-				4FF5154037DDC2DD3FAA2F3A40CAC3E2 /* WebRadioController.swift */,
-				769FF3F8C622425C98D7B1AEEB97650D /* WebRadioDelegate.swift */,
-				9AA24363C6564EE1B5DCA24AF44D2344 /* Pod */,
-				FF0C90ADC911BCFF283844104165809D /* Support Files */,
-			);
-			name = dnaWebRadioController;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				FBE880EE28EF602ABAF8E634F389D16C /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				0DEA1E8295BD54468DBBC187B6DDB164 /* Products */,
-				F3C0EA3C664102320A467E3E0E8F4AD6 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		9AA24363C6564EE1B5DCA24AF44D2344 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				8EB1101ED91B9E325B81D662EABC5846 /* dnaWebRadioController.podspec */,
-				B8133AB7BDE354F6E0A10C66837806AD /* LICENSE */,
-				D68A0672D00D6EC003331485C3DED6A8 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F3C0EA3C664102320A467E3E0E8F4AD6 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				075A9F6C776E9841D5B90157CFE2FA51 /* Pods-dnaWebRadioController_Example */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		FBE880EE28EF602ABAF8E634F389D16C /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3D31431D1ED4C8C69149381D20434A98 /* dnaWebRadioController */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		FF0C90ADC911BCFF283844104165809D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E869D54B18F3B4FC4E255494B0492251 /* dnaWebRadioController.modulemap */,
-				6FC81CF965446BFDB706233756F4A190 /* dnaWebRadioController.xcconfig */,
-				6A194A9DD08B87D04612885C4B67D9C0 /* dnaWebRadioController-dummy.m */,
-				F9F6982AA69567CFDC484BB270387363 /* dnaWebRadioController-prefix.pch */,
-				4421AFEF493E553747D7256FD13B7360 /* dnaWebRadioController-umbrella.h */,
-				685F69657FDCC204F775F58B5DB72C00 /* Info.plist */,
+				0C7492DAD3C02CBB02000161AE5C57C6 /* dnaWebRadioController.modulemap */,
+				B1D207E6E34157C1FD4E5873B860DD26 /* dnaWebRadioController.xcconfig */,
+				6CD630D340F47E18414BD165FFBEEEB4 /* dnaWebRadioController-dummy.m */,
+				B2BEB4677B0B80FCE64FC652A11DB845 /* dnaWebRadioController-Info.plist */,
+				7454CB61B0D85FE3EBFBF60AB0E757D7 /* dnaWebRadioController-prefix.pch */,
+				328C4D01A5166601E4C6B554FBA4766B /* dnaWebRadioController-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/dnaWebRadioController";
 			sourceTree = "<group>";
 		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5E4EDC058AF6EDF04EDBBB35A5DAC7A0 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				09E335B88C245D5DE7C644A02C2908A6 /* Products */,
+				17270D203D20EBC55503CE845DE50F5C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D626E533B3B569E69DAE93E555E1ECE9 /* dnaWebRadioController */ = {
+			isa = PBXGroup;
+			children = (
+				EAC0F9A959BDE4AEC1E6117AD95D94B7 /* WebRadioController.swift */,
+				795BED3EAE3BA7A69F15FE18C6ED3962 /* WebRadioDelegate.swift */,
+				32FA6834D3A8321F8761715D65A14D76 /* Pod */,
+				8C6F81B8BD747850B1C1FB8002B8B945 /* Support Files */,
+			);
+			name = dnaWebRadioController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8EE81C7E9B5A6D7CCCE63E1A18592CD9 /* Headers */ = {
+		735E13895B446520727B62808A05F63E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				693EAF60DC64C082BB640E5085BC4F96 /* Pods-dnaWebRadioController_Example-umbrella.h in Headers */,
+				A069A251E88BB5D168F259487C624F8B /* Pods-dnaWebRadioController_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD50D53B507EDADE54AC8DC2294194DC /* Headers */ = {
+		E05F6A0A168C3962827C86EF51557253 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E7A2ED0B29ADA8C8BFE9DA45CE24378 /* dnaWebRadioController-umbrella.h in Headers */,
+				48367F603C2846F26806289B3262AFE2 /* dnaWebRadioController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		712A4C102C2442D368B125612985E2DB /* Pods-dnaWebRadioController_Example */ = {
+		5178073381836FB5325D2D2550385614 /* dnaWebRadioController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 05B0D8284D59FA3F3D83D55FDB8AB005 /* Build configuration list for PBXNativeTarget "Pods-dnaWebRadioController_Example" */;
+			buildConfigurationList = 6AFFBA52649FF6FB6073EDD122BEAF27 /* Build configuration list for PBXNativeTarget "dnaWebRadioController" */;
 			buildPhases = (
-				8EE81C7E9B5A6D7CCCE63E1A18592CD9 /* Headers */,
-				8A8468E2EBF61D0D5EE05832FF4CCD9F /* Sources */,
-				63E7EB2221039FF54F774749D92DE20A /* Frameworks */,
-				23EB5BE2E87DABBBF48D1FDA636D6E1E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4DA27DBBD4DD36629990670F80B3F938 /* PBXTargetDependency */,
-			);
-			name = "Pods-dnaWebRadioController_Example";
-			productName = "Pods-dnaWebRadioController_Example";
-			productReference = 9FBF7FF5378CC98D8123B520646B84AD /* Pods_dnaWebRadioController_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B87ACD9794D6F0666104BE3B4354C783 /* dnaWebRadioController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E91DFEED0A4BE61EFC018BC0D96BF659 /* Build configuration list for PBXNativeTarget "dnaWebRadioController" */;
-			buildPhases = (
-				CD50D53B507EDADE54AC8DC2294194DC /* Headers */,
-				3385478BE087184B4F15A0414A44D234 /* Sources */,
-				B62841A91B7DAFEAD02914CE7D835835 /* Frameworks */,
-				4BF63059250A1680EE6176D74D04F235 /* Resources */,
+				E05F6A0A168C3962827C86EF51557253 /* Headers */,
+				B4DA484D762B820C44D42380CB2FA5DF /* Sources */,
+				4C854D5779399C75877B7EE8F19473DE /* Frameworks */,
+				07D2FA8208184CA5B579F5195D246F3D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -237,45 +216,65 @@
 			);
 			name = dnaWebRadioController;
 			productName = dnaWebRadioController;
-			productReference = FF0E0F11FCF7FB47BC843C1735009069 /* dnaWebRadioController.framework */;
+			productReference = 97E8AB6C4998E40DBC081A4E858947BC /* dnaWebRadioController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CDDABBD0ADFB298AECFBC5A75F69A1BC /* Pods-dnaWebRadioController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9BDE3DA29B6503E5E7DDE9EB2330E4C /* Build configuration list for PBXNativeTarget "Pods-dnaWebRadioController_Example" */;
+			buildPhases = (
+				735E13895B446520727B62808A05F63E /* Headers */,
+				C8C62452A48FC5FC06151805D27D58EA /* Sources */,
+				BAD8907AAD8C6269BE96BA1C0438599B /* Frameworks */,
+				FD5B4FC7D56427AE6132A2132C51F982 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14D8E3E40DC9ECD8126BBCF12DD5B95D /* PBXTargetDependency */,
+			);
+			name = "Pods-dnaWebRadioController_Example";
+			productName = "Pods-dnaWebRadioController_Example";
+			productReference = CF37E9B96D28539BBD614ED5B759016C /* Pods_dnaWebRadioController_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0DEA1E8295BD54468DBBC187B6DDB164 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 09E335B88C245D5DE7C644A02C2908A6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B87ACD9794D6F0666104BE3B4354C783 /* dnaWebRadioController */,
-				712A4C102C2442D368B125612985E2DB /* Pods-dnaWebRadioController_Example */,
+				5178073381836FB5325D2D2550385614 /* dnaWebRadioController */,
+				CDDABBD0ADFB298AECFBC5A75F69A1BC /* Pods-dnaWebRadioController_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		23EB5BE2E87DABBBF48D1FDA636D6E1E /* Resources */ = {
+		07D2FA8208184CA5B579F5195D246F3D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4BF63059250A1680EE6176D74D04F235 /* Resources */ = {
+		FD5B4FC7D56427AE6132A2132C51F982 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -285,37 +284,37 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3385478BE087184B4F15A0414A44D234 /* Sources */ = {
+		B4DA484D762B820C44D42380CB2FA5DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48D02E6EBA8ED44C36E8C3641A28781F /* dnaWebRadioController-dummy.m in Sources */,
-				F49D5593BE4F1F99387B45477247A1CE /* WebRadioController.swift in Sources */,
-				EAE07E06AF9AF646A3E356ABB56A3C21 /* WebRadioDelegate.swift in Sources */,
+				A8F35FA235F0C64324D1F13BAC1FC66B /* dnaWebRadioController-dummy.m in Sources */,
+				31D100DF3AE7D35B96ED3F0E56B96F4D /* WebRadioController.swift in Sources */,
+				CDBA32C483635BC954DA6B5140C69595 /* WebRadioDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A8468E2EBF61D0D5EE05832FF4CCD9F /* Sources */ = {
+		C8C62452A48FC5FC06151805D27D58EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B05F1562E7A0CC6E95597626510D2FB /* Pods-dnaWebRadioController_Example-dummy.m in Sources */,
+				B52F649C3D09878D394516EB12F6ACF8 /* Pods-dnaWebRadioController_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4DA27DBBD4DD36629990670F80B3F938 /* PBXTargetDependency */ = {
+		14D8E3E40DC9ECD8126BBCF12DD5B95D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = dnaWebRadioController;
-			target = B87ACD9794D6F0666104BE3B4354C783 /* dnaWebRadioController */;
-			targetProxy = C992DE10F3077A48CCBABF522791BC10 /* PBXContainerItemProxy */;
+			target = 5178073381836FB5325D2D2550385614 /* dnaWebRadioController */;
+			targetProxy = EA330AE77569EDE59C5AA97001DB5D59 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		73ABC2D18F03827B7773405E7F2AD926 /* Debug */ = {
+		60A7F9B4A8E92A5B16CC2AA887D9FE07 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -347,8 +346,97 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7B9B3A2285FDA132235AC296B71C9247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1D207E6E34157C1FD4E5873B860DD26 /* dnaWebRadioController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/dnaWebRadioController/dnaWebRadioController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/dnaWebRadioController/dnaWebRadioController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/dnaWebRadioController/dnaWebRadioController.modulemap";
+				PRODUCT_MODULE_NAME = dnaWebRadioController;
+				PRODUCT_NAME = dnaWebRadioController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E1F3D358966F24610AD782F313B4C40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -375,72 +463,15 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		9B6B989AABD96BB9DECB1784EA5E2534 /* Release */ = {
+		8DC805D3F08F46DF0BFD9A6E9DCF664B /* Release */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		A38CDE33AAE84B100B307577141D1394 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E8C7EF59C5199E8AEF3026B5FB92EAC /* Pods-dnaWebRadioController_Example.release.xcconfig */;
+			baseConfigurationReference = AA3AE2A06EF277D70E7C76A47F12DB5E /* Pods-dnaWebRadioController_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -452,7 +483,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-dnaWebRadioController_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-dnaWebRadioController_Example/Pods-dnaWebRadioController_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -465,8 +496,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -474,9 +503,9 @@
 			};
 			name = Release;
 		};
-		A5369535EF508917574B1FB695B907EE /* Debug */ = {
+		E93997362F5F76FCEA7615991D5FBD42 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FC81CF965446BFDB706233756F4A190 /* dnaWebRadioController.xcconfig */;
+			baseConfigurationReference = B1D207E6E34157C1FD4E5873B860DD26 /* dnaWebRadioController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -488,7 +517,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/dnaWebRadioController/dnaWebRadioController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/dnaWebRadioController/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/dnaWebRadioController/dnaWebRadioController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -498,17 +527,17 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		F6B5C1D90CBFA8A2B157753DF3515DC2 /* Debug */ = {
+		EA147A3D566930E0FCA5880ED66BB492 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12322A2E41393EE29381B54808C44CB7 /* Pods-dnaWebRadioController_Example.debug.xcconfig */;
+			baseConfigurationReference = 55834F5A0BA3FFC5CC9ED8962F3D8CBD /* Pods-dnaWebRadioController_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -520,7 +549,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-dnaWebRadioController_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-dnaWebRadioController_Example/Pods-dnaWebRadioController_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -533,79 +562,43 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		F9B8ED2F3A42368AEBDA8F650AD1F0DA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FC81CF965446BFDB706233756F4A190 /* dnaWebRadioController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/dnaWebRadioController/dnaWebRadioController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/dnaWebRadioController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/dnaWebRadioController/dnaWebRadioController.modulemap";
-				PRODUCT_MODULE_NAME = dnaWebRadioController;
-				PRODUCT_NAME = dnaWebRadioController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		05B0D8284D59FA3F3D83D55FDB8AB005 /* Build configuration list for PBXNativeTarget "Pods-dnaWebRadioController_Example" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F6B5C1D90CBFA8A2B157753DF3515DC2 /* Debug */,
-				A38CDE33AAE84B100B307577141D1394 /* Release */,
+				7E1F3D358966F24610AD782F313B4C40 /* Debug */,
+				60A7F9B4A8E92A5B16CC2AA887D9FE07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		6AFFBA52649FF6FB6073EDD122BEAF27 /* Build configuration list for PBXNativeTarget "dnaWebRadioController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				73ABC2D18F03827B7773405E7F2AD926 /* Debug */,
-				9B6B989AABD96BB9DECB1784EA5E2534 /* Release */,
+				7B9B3A2285FDA132235AC296B71C9247 /* Debug */,
+				E93997362F5F76FCEA7615991D5FBD42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E91DFEED0A4BE61EFC018BC0D96BF659 /* Build configuration list for PBXNativeTarget "dnaWebRadioController" */ = {
+		F9BDE3DA29B6503E5E7DDE9EB2330E4C /* Build configuration list for PBXNativeTarget "Pods-dnaWebRadioController_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A5369535EF508917574B1FB695B907EE /* Debug */,
-				F9B8ED2F3A42368AEBDA8F650AD1F0DA /* Release */,
+				EA147A3D566930E0FCA5880ED66BB492 /* Debug */,
+				8DC805D3F08F46DF0BFD9A6E9DCF664B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
